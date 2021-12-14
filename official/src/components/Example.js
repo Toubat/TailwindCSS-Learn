@@ -26,7 +26,12 @@ function Example() {
   const inputRef = useRef();
 
   return (
-    <Listbox as="div" value={selectedPerson} onChange={setSelectedPerson} className="max-w-xs">
+    <Listbox
+      as="div"
+      value={selectedPerson}
+      onChange={setSelectedPerson}
+      className="max-w-xs inline-block"
+    >
       {({ open }) => (
         <div className="relative flex justify-center">
           <Listbox.Button
