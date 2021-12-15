@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  a {
+    @apply text-green-500 underline;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply mt-10 bg-green-500 p-3 text-white rounded-md shadow-lg font-medium hover:bg-green-600;
+  }
+}
+
+@layer unitities {
+  .text-green-500 {
+    color: blue;
+  }
+}

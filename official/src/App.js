@@ -44,6 +44,7 @@ export default function App() {
         <body class="h-full">
         ```
       */}
+
       <div className="min-h-full">
         <div className="sticky top-0 z-10">
           <Disclosure as="nav" className="bg-gray-800 opacity-95">
