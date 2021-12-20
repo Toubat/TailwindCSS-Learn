@@ -10,7 +10,7 @@ const tabs: string[] = [
 
 export function Sidebar() {
   return (
-    <div className="bg-indigo-900 w-56 h-screen">
+    <div className="bg-indigo-900 w-56">
       <div className="bg-indigo-800">
         <div className="uppercase text-gray-200 p-5 font-bold text-xl">Super Corp</div>
       </div>
